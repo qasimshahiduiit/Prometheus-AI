@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+data
+*.db
+*.db-*
+.env*.local
+.DS_Store
+npm-debug.log*
+*.tsbuildinfo
+
+# Claude Code local (personal) settings — may contain machine-specific data/secrets
+.claude/settings.local.json
+
+# Local secret dump for Vercel env setup — NEVER commit
+vercel-env.txt

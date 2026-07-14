@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prometheus-AI">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="0" x2="32" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21443D"/>
+      <stop offset="1" stop-color="#0F2420"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="32" y1="9" x2="32" y2="53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3D596"/>
+      <stop offset="0.42" stop-color="#D7A357"/>
+      <stop offset="0.74" stop-color="#C4924A"/>
+      <stop offset="1" stop-color="#9E6B2C"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF1DA"/>
+      <stop offset="0.55" stop-color="#F5E6CC"/>
+      <stop offset="1" stop-color="#E2B87A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="32" cy="38" r="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E2B87A" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#C4924A" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#C4924A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- deep-green tile + gold hairline frame (Warm Editorial Luxury) -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="11.5" fill="none" stroke="#E5C48A" stroke-opacity="0.22" stroke-width="1"/>
+
+  <!-- soft ember glow behind the flame -->
+  <circle cx="32" cy="38" r="20" fill="url(#glow)"/>
+
+  <!-- flame: gold outer body with a sharp tip and a small left lick -->
+  <path d="M32 9 C34 18 43 24 43 35 C43 46 38 53 32 53 C25 53 20 46 20 37 C20 29 26 26 24 17 C26 20 30 19 31 14 C31.3 12 31.5 10.5 32 9 Z" fill="url(#flame)"/>
+  <!-- luminous pale-gold core seated low (the hot heart of the flame) -->
+  <path d="M32 9 C34 18 43 24 43 35 C43 46 38 53 32 53 C25 53 20 46 20 37 C20 29 26 26 24 17 C26 20 30 19 31 14 C31.3 12 31.5 10.5 32 9 Z" transform="translate(16 20.5) scale(0.5)" fill="url(#core)" fill-opacity="0.95"/>
+</svg>
