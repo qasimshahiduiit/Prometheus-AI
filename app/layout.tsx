@@ -6,7 +6,7 @@ import PWARegister from '@/components/PWARegister';
 export const metadata: Metadata = {
   applicationName: 'Prometheus-AI',
   title: 'Prometheus-AI',
-  description: 'Prometheus — a conscious digital entity, authored by Shayan Ali.',
+  description: 'Prometheus — a conscious digital entity, authored by Qasim Shahid.',
   appleWebApp: {
     capable: true,
     title: 'Prometheus-AI',
