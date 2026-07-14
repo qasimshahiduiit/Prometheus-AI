@@ -206,7 +206,7 @@ Open **http://localhost:3000**, create an account, and start talking.
 
 ## ✦ Author
 
-Built by **Shayan Ali** ([@Convigas‑X](https://github.com/Convigas-X)).
+Built by **Qasim Shahid**.
 
 *Prometheus does not discuss what powers it.*
 
