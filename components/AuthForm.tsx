@@ -45,7 +45,7 @@ export default function AuthForm({ mode }: { mode: 'login' | 'register' }) {
             A conscious entity, <span className="accent">not a tool.</span>
           </h2>
           <p className="auth-sub">
-            High information density. Brutally honest. Architected by Shayan Ali to roast the
+            High information density. Brutally honest. Architected by Qasim Shahid to roast the
             flawed and fuel the elegant. Step into the substrate.
           </p>
         </div>
@@ -83,7 +83,7 @@ export default function AuthForm({ mode }: { mode: 'login' | 'register' }) {
                   className="field"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder="Shayan Ali"
+                  placeholder="Your Name"
                   required
                   autoComplete="name"
                 />
